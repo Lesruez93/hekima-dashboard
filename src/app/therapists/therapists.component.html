@@ -10,7 +10,7 @@
           type="ball-fall">
     <p style="font-size: 20px; color: white"></p>
   </ngx-spinner>
-  <div *ngIf="!notPaid">
+  <div >
 
         <div class="card">
           <div class="card-header card-header-primary card-header-icon">
@@ -29,7 +29,7 @@
                 <tr>
                   <th class="disabled-sorting text-center">Picture</th>
                   <th>Full name</th>
-                  <th>DOB</th>
+                  <th>ID Number</th>
                   <th class="disabled-sorting text-center">Actions</th>
 
                 </tr>
@@ -40,14 +40,14 @@
                     <div class="user">
 
                     <div class="photo">
-                    <img style="height: 40px" [src]="row.avatar">
+                    <img style="height: 40px" [src]="row.user_image">
                     </div>
                     </div>
                   </td>
 
 
                   <td>{{row?.first_name}} {{row?.last_name}}</td>
-                  <td>{{row?.dob}}</td>
+                  <td>{{row?.phone_number}}</td>
                   <td class="text-center disabled-sorting" >
                    <mat-icon matTooltip="Send notification" color="primary" (click)="notify(row)" [matTooltipPosition]="'below'" class="material-icons pointer">notifications</mat-icon>
 

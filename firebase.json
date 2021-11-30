@@ -1,6 +1,7 @@
 {
   "hosting": {
     "public": "dist",
+    "site": "hekima-console",
     "ignore": [
       "firebase.json",
       "**/.*",

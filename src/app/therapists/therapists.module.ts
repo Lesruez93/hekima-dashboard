@@ -4,10 +4,11 @@ import {CommonModule} from '@angular/common';
 import {FormsModule} from '@angular/forms';
 import {MaterialModule} from '../app.module';
 import {NgxSummernoteModule} from 'ngx-summernote';
-import {StoreRoutes} from './approve-submissions.routing';
-import {ApproveSubmissionsComponent} from './approve-submissions.component';
-import {NgxSpinnerModule} from 'ngx-spinner';
+import {StoreRoutes} from './therapists.routing';
 
+import {NgxSpinnerModule} from 'ngx-spinner';
+import {TherapistsComponent} from './therapists.component';
+import {DataTablesModule} from 'angular-datatables';
 
 
 @NgModule({
@@ -16,10 +17,11 @@ import {NgxSpinnerModule} from 'ngx-spinner';
         RouterModule.forChild(StoreRoutes),
         FormsModule,
         MaterialModule,
-
         NgxSummernoteModule,
-        NgxSpinnerModule
+        NgxSpinnerModule,
+        DataTablesModule
     ],
-  declarations: [ApproveSubmissionsComponent]
+    declarations: [TherapistsComponent]
 })
-export class ApproveSubmissionsModule { }
+export class TherapistsModule {
+}

@@ -168,7 +168,7 @@
     &.bg-primary,
     &.card-rotate.bg-primary .front,
     &.card-rotate.bg-primary .back{
-      background: linear-gradient(60deg, #ff0000, rgba(255, 0, 0, 0.76));
+      background: linear-gradient(60deg, rgba(122, 185, 213, 0.65), rgba(28, 178, 245, 0.65));
     }
     .card-header-info .card-icon,
     .card-header-info .card-text,
@@ -200,7 +200,7 @@
     &.bg-danger,
     &.card-rotate.bg-danger .front,
     &.card-rotate.bg-danger .back{
-      background: linear-gradient(60deg, #ff0000, rgba(255, 0, 0, 0.7));
+      background: linear-gradient(60deg, rgba(28, 178, 245, 0.65), rgba(28, 178, 245, 0.65));
     }
 
     .card-header-rose .card-icon,
@@ -209,7 +209,7 @@
     &.bg-rose,
     &.card-rotate.bg-rose .front,
     &.card-rotate.bg-rose .back{
-      background: linear-gradient(60deg, #ff0000, rgba(255, 0, 0, 0.67));
+      background: linear-gradient(60deg, rgba(167, 214, 236, 0.65), rgba(28, 178, 245, 0.65));
     }
 
     .card-header-primary .card-icon,
